@@ -22,9 +22,9 @@ export class Postivecomments extends React.Component{
                                     </div>
                                     <div className="col-xs-6 col-sm-7 col-md-8 Profile">
                                         <div className="Profile_Name">
-                                            <b><a href={element.user_info.url}>{element.user_info.name}</a></b>
+                                            <b><a href={element.user_info.url} target="_blank">{element.user_info.name}</a></b>
                                             <div className="col-xs-12 col-sm-12 col-md-12 Message">
-                                                <i className="fa fa-quote-right" aria-hidden="true"></i> 
+                                                <i className="fa fa-quote-right" aria-hidden="true"></i>
                                                 <span className="comment_msg"> 
                                                     {element.text}
                                                 </span>
@@ -78,7 +78,7 @@ export class Negativecomments extends React.Component{
                                     </div>
                                     <div className="col-xs-6 col-sm-7 col-md-8 Profile">
                                         <div className="Profile_Name">
-                                            <b><a href={element.user_info.url}>{element.user_info.name}</a></b>
+                                            <b><a href={element.user_info.url} target="_blank">{element.user_info.name}</a></b>
                                             <div className="col-xs-12 col-sm-12 col-md-12 Message">
                                                 <i className="fa fa-quote-right" aria-hidden="true"></i> 
                                                 <span className="comment_msg"> 
