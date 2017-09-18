@@ -294,11 +294,32 @@ margin-bottom:2px;
 	-border-radius:.5em;
 }	
 
+#printoutHeading{
+    padding-top:20px;
+    background-color: lightyellow;
+}
+.printheader{
+    
+}
+.printoutSubHeading{
+    text-align:center;
+    font-weight: bold;
+    border-bottom:1px solid grey;
+}
+.printtable{
+    font-size:12px;
+}
+.printpost{
 
-
-
-
-
+}
+.nopadding{
+    padding:0px;
+}
+.closepreview{
+    padding-right:50px;
+}
+.printBase{
+}
 
 
 

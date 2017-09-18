@@ -22,7 +22,7 @@ export class Home extends React.Component{
                     <Overview head1="OVERVIEW" head2="DETAILED ANALYSIS"/>
                     <div className="panel-body">
                         <div className="row" >
-                            <Download/>           
+                            <Download data={this.state.feltso_data}/>           
                         </div>
                         <hr/>
                         <div className="row">
